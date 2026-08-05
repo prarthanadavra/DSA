@@ -1,3 +1,8 @@
+"""
+time complexity: O(log10N + 1)
+space complexity: O(1)
+"""
+
 def palindrone(n):
     dup=n
     res=0

@@ -1,3 +1,8 @@
+"""
+forward recursion
+time complexity: O(n)  
+space complexity: O(n)
+"""
 def reverse(n):
     if n==0:
         return
@@ -5,3 +10,17 @@ def reverse(n):
     reverse(n-1)
 
 result = reverse(5)
+
+"""
+backward recursion
+time complexity: O(n)
+space complexity: O(n)
+"""
+
+def reverse(i,n):
+    if i>n:
+        return
+    reverse(i+1,n)
+    print(i,end=" ")
+
+result = reverse(1,5)
