@@ -1,3 +1,7 @@
+"""
+time complexity: O(log10N + 1)
+space complexity: O(1)
+"""
 def armstrong(n):
     sum=0
     dup=n

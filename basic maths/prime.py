@@ -1,3 +1,8 @@
+"""
+brute force approach
+time complexity: O(N)
+space complexity: O(1)
+"""
 def prime(n):
     count=0
     for i in range(1,n+1):

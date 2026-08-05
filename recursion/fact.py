@@ -1,3 +1,9 @@
+"""
+recursive approach
+time complexity: O(n)
+space complexity: O(n)
+"""
+
 def fact(n):
     if n==0:
         return 1
@@ -6,6 +12,11 @@ def fact(n):
 result = fact(5)
 print(result)
 
+"""
+iterative approach
+time complexity: O(n)
+space complexity: O(1)
+"""
 def fact2(n):
     result = 1
     for i in range(n,0,-1):

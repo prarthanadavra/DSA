@@ -1,3 +1,9 @@
+"""
+brute force approach
+time complexity: O(N)
+space complexity: O(N)
+"""
+
 def divisors(n):
     res=[]
     for i in range(1,n+1):

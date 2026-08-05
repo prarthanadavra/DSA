@@ -1,3 +1,7 @@
+"""
+time complexity: O(N)
+space complexity: O(N)
+"""
 def name(n):
     if n== 0:
         return

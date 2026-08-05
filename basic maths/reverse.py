@@ -1,3 +1,9 @@
+
+"""
+time complexity: O(log10N)
+space complexity: O(1)
+"""
+
 def reverse(n):
     res=0
     while n>0:
@@ -6,5 +12,5 @@ def reverse(n):
         res=(res*10)+lastdigit
     return res
 
-result = reverse(123456789)
+result = reverse(10400)
 print(result)
